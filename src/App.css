@@ -1,42 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+:root {
+    /* BASE E NEUTRI */
+    --color-base-chiaro: #E0D9C8;     /* Beige Cachemire (Sfondo Caldo) */
+    --color-testo-scuro: #2A2A2A;     /* Antracite Profondo (Testo Principale) */
+    
+    /* TONI CALDI E TERRENI */
+    --color-primario-caldo: #8B4513;  /* Marrone Intenso (Forza/Struttura) */
+    --color-accento-oro: #D4AF37;     /* Oro Metallico (Lusso/Dettagli) */
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+    /* TONI DI ACCENTO E CONTRASTO */
+    --color-accento-ricco: #8B1A21;   /* Rosso Borgogna (Passione/Tradizione) */
+    --color-acqua-profonda: #144062;  /* Blu Reale (Stabilità/Profondità) */
 }
